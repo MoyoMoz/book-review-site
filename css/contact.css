@@ -14,13 +14,15 @@ main {
     text-align: center;
   }
   
-  .site-maintainer {
 
-    border-radius: 50%;
+  .site-maintainer {
     display: flex;
     justify-content: center;
+  }
+  
+  .site-maintainer img {
+    border-radius: 50%;
     border: 3px solid gold;
-
   }
   
   
