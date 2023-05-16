@@ -17,4 +17,7 @@ img {
   .site-maintainer img {
     border-radius: 50%;
   }
-  
+  /* Index page specific styles */
+.index-images img {
+  width: 200px;
+}
