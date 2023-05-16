@@ -14,9 +14,8 @@ header {
   background-color: black;
   border-bottom: 3px solid red;
   padding: 20px;
-  text-align: center; /* Add this line */
+  text-align: center;
 }
-
 
 nav {
   display: flex;
@@ -65,12 +64,10 @@ ul {
   line-height: 150%;
 }
 
-
 footer {
-
   background-color: black;
   border-top: 3px solid red;
-  padding: 10px; /* Decrease the padding to make the footer smaller */
+  padding: 10px;
   text-align: center;
   color: white;
   font-family: Arial, sans-serif;
@@ -87,6 +84,17 @@ footer {
 }
 
 .social-icons img {
-  width: 30px; /* Adjust the width to make the icons smaller */
+  width: 30px;
   margin: 0 5px;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book {
+  text-align: center;
 }
