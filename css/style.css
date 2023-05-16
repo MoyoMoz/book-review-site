@@ -65,11 +65,15 @@ ul {
   line-height: 150%;
 }
 
+
 footer {
-  border-top: 1px solid gold;
+  
   background-color: black;
-  padding: 10px;
+  border-top: 3px solid red;
+  padding: 10px; /* Decrease the padding to make the footer smaller */
   text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 .site-maintainer img {
