@@ -1,28 +1,25 @@
 /* index.css */
 img {
     width: 200px;
-  }
-  
+}
+
   /* eloquent-ruby.css */
-  .review {
+.review {
     background-color: lightgray;
     line-height: 150%;
-  }
-  
+}
+
 /* Contact page specific styles */
 main {
     text-align: center;
-  }
-  
+}
 
-  .site-maintainer {
+
+.site-maintainer {
     display: flex;
     justify-content: center;
-  }
-  
-  .site-maintainer img {
+}
+.site-maintainer img {
     border-radius: 50%;
     border: 3px solid gold;
-  }
-  
-  
+}
