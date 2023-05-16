@@ -11,13 +11,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid gold;
   background-color: black;
-  padding: 10px;
+  border-bottom: 3px solid red;
+  padding: 20px;
+  text-align: center; /* Add this line */
 }
+
 
 nav {
   display: flex;
