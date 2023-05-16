@@ -1,32 +1,4 @@
-/* index.css */
-img {
-    width: 200px;
-  }
-  
-  /* eloquent-ruby.css */
-  .review {
-    background-color: lightgray;
-    line-height: 150%;
-  }
-  
-  /* contact.css */
-  main {
-    text-align: center;
-  }
-  
-  .site-maintainer img {
-    border-radius: 50%;
-  }
-
-/* Index page specific styles */
-.index-images {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.index-images img {
+.book img {
   width: 200px;
   border: 3px solid gold;
 }
@@ -49,14 +21,8 @@ img {
   text-align: center;
 }
 
-
-.book img {
-  max-width: 100%;
-}
-
 .book h3 {
   text-align: center;
   margin: 0;
   padding: 5px 0;
 }
-
