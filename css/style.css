@@ -1,0 +1,30 @@
+/* style.css */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  header, footer {
+    border: 1px solid #333;
+    background-color: #f1f1f1;
+  }
+  
+  main {
+    background-color: #ffffff;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .book-title {
+    font-style: italic;
+  }
+  

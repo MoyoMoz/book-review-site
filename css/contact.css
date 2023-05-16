@@ -1,0 +1,20 @@
+/* index.css */
+img {
+    width: 200px;
+  }
+  
+  /* eloquent-ruby.css */
+  .review {
+    background-color: lightgray;
+    line-height: 150%;
+  }
+  
+  /* contact.css */
+  main {
+    text-align: center;
+  }
+  
+  .site-maintainer img {
+    border-radius: 50%;
+  }
+  
