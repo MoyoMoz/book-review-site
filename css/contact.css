@@ -9,14 +9,18 @@ img {
     line-height: 150%;
   }
   
-  /* contact.css */
-  main {
-    text-align: center;
-  }
   
   .site-maintainer img {
     border-radius: 50%;
   }
   
-
+/* Contact page specific styles */
+main {
+    text-align: center;
+  }
+  
+  .site-maintainer img {
+    border: 3px solid gold;
+  }
+  
   

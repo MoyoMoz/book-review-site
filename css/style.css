@@ -1,22 +1,32 @@
-/* style.css */
 body {
   font-family: "Helvetica", "Arial", sans-serif;
   color: white;
   background-color: black;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: gold;
+  margin-bottom: 20px;
 }
 
-header, footer {
-  border: 1px solid gold;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gold;
   background-color: black;
   padding: 10px;
 }
 
+nav {
+  display: flex;
+  gap: 10px;
+}
+
 nav a {
   color: red;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -26,6 +36,8 @@ nav a:hover {
 main {
   background-color: #1c1c1c;
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .book-title {
@@ -40,6 +52,8 @@ ul {
 .index-images img {
   width: 150px;
   margin-bottom: 20px;
+  border: 1px solid gold;
+  padding: 5px;
 }
 
 .review {
@@ -50,6 +64,13 @@ ul {
 
 .review p {
   line-height: 150%;
+}
+
+footer {
+  border-top: 1px solid gold;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
 }
 
 .site-maintainer img {
